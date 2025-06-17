@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site com Paleta Harmoniosa</title>
+  <style>
+    :root {
+      --cor-primaria: #2C3E50;
+      --cor-secundaria: #1ABC9C;
+      --cor-destaque: #F1C40F;
+      --cor-fundo: #ECF0F1;
+      --cor-texto: #2D3436;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+    }
+
+    header, footer {
+      background-color: var(--cor-primaria);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    aside {
+      background-color: var(--cor-secundaria);
+      color: white;
+      padding: 15px;
+      margin: 20px;
+    }
+
+    a {
+      color: var(--cor-primaria);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .botao {
+      background-color: var(--cor-destaque);
+      color: var(--cor-primaria);
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .botao:hover {
+      background-color: #d4ac0d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Meu Site</h1>
+  </header>
+
+  <section>
+    <h2>Seção Principal</h2>
+    <p>Este é um exemplo de parágrafo dentro da seção principal do site.</p>
+    <button class="botao">Clique Aqui</button>
+    <p><a href="#">Saiba mais</a></p>
+  </section>
+
+  <aside>
+    <h3>Informações Laterais</h3>
+    <p>Teste de  paleta de cores ao meu site.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
